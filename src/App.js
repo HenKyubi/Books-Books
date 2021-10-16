@@ -57,8 +57,8 @@ function App() {
           </div>
         </section>
         <div id="features">
-          <div className="feature">
-            <div>Put something here</div>
+          <div className="background-white">
+            <div className="stuff-item stuff1">Put something here</div>
             <div>
               <h5>Maybe here as well i think</h5>
               <p>
@@ -67,8 +67,8 @@ function App() {
               </p>
             </div>
           </div>
-          <div>
-            <div>An interesting title</div>
+          <div className="background-white">
+            <div className="stuff-item stuff2">An interesting title</div>
             <div>
               <h5>This is also an interesting subtitle</h5>
               <p>
@@ -77,8 +77,8 @@ function App() {
               </p>
             </div>
           </div>
-          <div>
-            <div>Oh, and finally...</div>
+          <div className="background-white">
+            <div className="stuff-item stuff3">Oh, and finally...</div>
             <div>
               <h5>Here's another intriguing subtitle</h5>
               <p>
@@ -89,13 +89,15 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="about">
         <div>
           <h4>Interesting stuff</h4>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div id="stuff">
+            <div className="brown"></div>
+            <div className="pink"></div>
+            <div className="blue"></div>
+            <div className="green"></div>
+          </div>
           <button>More</button>
         </div>
         <div>
@@ -127,35 +129,125 @@ function App() {
         </div>
       </div>
       <footer>
-        <div>
-          <h5>Random Stuff</h5>
-          <a href="">Etiam feugiat condimentum</a>
-          <a href="">Aliquam imperdiet suscipit odio</a>
-          <a href="">Sed porttitor crasin erat nec</a>
-          <a href="">Felis varius pellentesque potenti</a>
-          <a href="">Nullam scelerisque blandit leo</a>
-        </div>
-        <div>
-          <h5>Random Stuff</h5>
-          <a href="">Etiam feugiat condimentum</a>
-          <a href="">Aliquam imperdiet suscipit odio</a>
-          <a href="">Sed porttitor crasin erat nec</a>
-          <a href="">Felis varius pellentesque potenti</a>
-          <a href="">Nullam scelerisque blandit leo</a>
-        </div>
-        <div>
-          <h5>Random Stuff</h5>
-          <a href="">Etiam feugiat condimentum</a>
-          <a href="">Aliquam imperdiet suscipit odio</a>
-          <a href="">Sed porttitor crasin erat nec</a>
-          <a href="">Felis varius pellentesque potenti</a>
-          <a href="">Nullam scelerisque blandit leo</a>
-        </div>
-        <div>
-          <h5>Contact Us</h5>
+        <div className="background" id="footer">
+          <div>
+            <h5>Random Stuff</h5>
+            <a href="">Etiam feugiat condimentum</a>
+            <a href="">Aliquam imperdiet suscipit odio</a>
+            <a href="">Sed porttitor crasin erat nec</a>
+            <a href="">Felis varius pellentesque potenti</a>
+            <a href="">Nullam scelerisque blandit leo</a>
+          </div>
+          <div>
+            <h5>Random Stuff</h5>
+            <a href="">Etiam feugiat condimentum</a>
+            <a href="">Aliquam imperdiet suscipit odio</a>
+            <a href="">Sed porttitor crasin erat nec</a>
+            <a href="">Felis varius pellentesque potenti</a>
+            <a href="">Nullam scelerisque blandit leo</a>
+          </div>
+          <div>
+            <h5>Random Stuff</h5>
+            <a href="">Etiam feugiat condimentum</a>
+            <a href="">Aliquam imperdiet suscipit odio</a>
+            <a href="">Sed porttitor crasin erat nec</a>
+            <a href="">Felis varius pellentesque potenti</a>
+            <a href="">Nullam scelerisque blandit leo</a>
+          </div>
+          <div>
+            <h5>Contact Us</h5>
+          </div>
         </div>
         <span>Untitle. All rights reserved</span>
       </footer>
+      {/* <section className="">
+        <div className="container text-center text-md-start mt-5">
+          <div className="row mt-3">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                <i className="fas fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" className="text-reset">
+                  Angular
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  React
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  Vue
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  Laravel
+                </a>
+              </p>
+            </div>
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" className="text-reset">
+                  Pricing
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  Settings
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  Orders
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                  Help
+                </a>
+              </p>
+            </div>
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i className="fas fa-home me-3"></i> New York, NY 10012, US
+              </p>
+              <p>
+                <i className="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p>
+                <i className="fas fa-phone me-3"></i> + 01 234 567 88
+              </p>
+              <p>
+                <i className="fas fa-print me-3"></i> + 01 234 567 89
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        className="text-center p-4"
+        // style="background-color: rgba(0, 0, 0, 0.05);"
+      >
+        © 2021 Copyright:
+        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+          MDBootstrap.com
+        </a>
+      </div> */}
     </div>
   );
 }
