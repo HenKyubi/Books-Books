@@ -1,0 +1,9 @@
+.background {
+  background-image: url("../src/assets/bg01.png");
+  background-repeat: repeat;
+}
+
+.navbar-brand {
+  color: red;
+  font-family: "Oleo Script";
+}
