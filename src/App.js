@@ -23,33 +23,26 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Home
+                  Welcome
                 </a>
                 <a class="nav-link" href="#">
-                  Features
+                  Dropdown
                 </a>
                 <a class="nav-link" href="#">
-                  Pricing
+                  Left Sidebar
                 </a>
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-                  Disabled
+                <a class="nav-link" href="#">
+                  Right Sidebar
+                </a>
+                <a class="nav-link" href="#">
+                  No Sidebar
                 </a>
               </div>
             </div>
           </div>
         </nav>
-        <div>myLorem</div>
-        <div>
-          <ul>
-            <li>Welcome</li>
-            <li>Dropdown</li>
-            <li>Left Sidebar</li>
-            <li>Right Sidebar</li>
-            <li>No Sidebar</li>
-          </ul>
-        </div>
       </header>
-      <div className="container">
+      <section id="hero">
         <div>
           <h2>Hi, This is Lorem.</h2>
           <p>
@@ -58,10 +51,10 @@ function App() {
           </p>
         </div>
         <div>
-          <button>Ok let's go</button>
-          <button>More Info</button>
+          <button className="btn">Ok let's go</button>
+          <button className="btn">More Info</button>
         </div>
-      </div>
+      </section>
       <div>
         <div className="container"></div>
         <div className="container"></div>

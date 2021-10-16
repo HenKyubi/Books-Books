@@ -3,7 +3,16 @@
   background-repeat: repeat;
 }
 
+#hero {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+}
+
 .navbar-brand {
   color: red;
   font-family: "Oleo Script";
+}
+.btn {
+  width: 100%;
 }
