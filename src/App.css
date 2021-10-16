@@ -2,7 +2,15 @@
   background-image: url("../src/assets/bg01.png");
   background-repeat: repeat;
 }
+#features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 
+.feature {
+  width: 1fr;
+}
 #hero {
   display: grid;
   grid-template-columns: 60% 40%;

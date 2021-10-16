@@ -3,65 +3,94 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <header className="background">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              myLorem
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Welcome
-                </a>
-                <a class="nav-link" href="#">
-                  Dropdown
-                </a>
-                <a class="nav-link" href="#">
-                  Left Sidebar
-                </a>
-                <a class="nav-link" href="#">
-                  Right Sidebar
-                </a>
-                <a class="nav-link" href="#">
-                  No Sidebar
-                </a>
+      <div className="background">
+        <header>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid">
+              <a className="navbar-brand" href="#">
+                myLorem
+              </a>
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Welcome
+                  </a>
+                  <a className="nav-link" href="#">
+                    Dropdown
+                  </a>
+                  <a className="nav-link" href="#">
+                    Left Sidebar
+                  </a>
+                  <a className="nav-link" href="#">
+                    Right Sidebar
+                  </a>
+                  <a className="nav-link" href="#">
+                    No Sidebar
+                  </a>
+                </div>
               </div>
             </div>
+          </nav>
+        </header>
+        <section id="hero">
+          <div>
+            <h2>Hi, This is Lorem.</h2>
+            <p>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto
+            </p>
           </div>
-        </nav>
-      </header>
-      <section id="hero">
-        <div>
-          <h2>Hi, This is Lorem.</h2>
-          <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto
-          </p>
+          <div>
+            <button className="btn">Ok let's go</button>
+            <button className="btn">More Info</button>
+          </div>
+        </section>
+        <div id="features">
+          <div className="feature">
+            <div>Put something here</div>
+            <div>
+              <h5>Maybe here as well i think</h5>
+              <p>
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>An interesting title</div>
+            <div>
+              <h5>This is also an interesting subtitle</h5>
+              <p>
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>Oh, and finally...</div>
+            <div>
+              <h5>Here's another intriguing subtitle</h5>
+              <p>
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+              </p>
+            </div>
+          </div>
         </div>
-        <div>
-          <button className="btn">Ok let's go</button>
-          <button className="btn">More Info</button>
-        </div>
-      </section>
-      <div>
-        <div className="container"></div>
-        <div className="container"></div>
-        <div className="container"></div>
       </div>
       <div>
-        <div className="container">
+        <div>
           <h4>Interesting stuff</h4>
           <div></div>
           <div></div>
@@ -69,7 +98,7 @@ function App() {
           <div></div>
           <button>More</button>
         </div>
-        <div className="container">
+        <div>
           <h3>So what's this all about?</h3>
           <p>
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y
