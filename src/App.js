@@ -238,7 +238,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <span>Untitle. All rights reserved</span>
+          <span>© Untitle. All rights reserved</span>
         </div>
       </footer>
     </div>
