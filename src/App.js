@@ -69,40 +69,42 @@ function App() {
           </div>
         </section>
         <div className="container" id="features">
-          <div className="background-white">
-            <div className="stuff-item stuff1">
-              <div>Put something here</div>
+          <div className="row">
+            <div className="card-white ml-0">
+              <div className="stuff-item stuff1">
+                <div>Put something here</div>
+              </div>
+              <div className="card-body">
+                <h3>Maybe here as well i think</h3>
+                <p>
+                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
+                  lectus. Praesent sed semper amet bibendum tristique fringilla.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3>Maybe here as well i think</h3>
-              <p>
-                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
-                Praesent sed semper amet bibendum tristique fringilla.
-              </p>
+            <div className="card-white">
+              <div className="stuff-item stuff2">
+                <div>An interesting title</div>
+              </div>
+              <div className="card-body">
+                <h3>This is also an interesting subtitle</h3>
+                <p>
+                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
+                  lectus. Praesent sed semper amet bibendum tristique fringilla.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="background-white">
-            <div className="stuff-item stuff2">
-              <div>An interesting title</div>
-            </div>
-            <div>
-              <h3>This is also an interesting subtitle</h3>
-              <p>
-                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
-                Praesent sed semper amet bibendum tristique fringilla.
-              </p>
-            </div>
-          </div>
-          <div className="background-white">
-            <div className="stuff-item stuff3">
-              <div>Oh, and finally...</div>
-            </div>
-            <div>
-              <h3>Here's another intriguing subtitle</h3>
-              <p>
-                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
-                Praesent sed semper amet bibendum tristique fringilla.
-              </p>
+            <div className="card-white mr-0">
+              <div className="stuff-item stuff3">
+                <div>Oh, and finally...</div>
+              </div>
+              <div className="card-body">
+                <h3>Here's another intriguing subtitle</h3>
+                <p>
+                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
+                  lectus. Praesent sed semper amet bibendum tristique fringilla.
+                </p>
+              </div>
             </div>
           </div>
         </div>
