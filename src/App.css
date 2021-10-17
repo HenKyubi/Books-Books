@@ -1,6 +1,41 @@
-.background {
-  background-image: url("../src/assets/bg01.png");
-  background-repeat: repeat;
+header {
+  background-color: #f5f5f5;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+nav .nav-items {
+  height: auto;
+  margin: auto 0;
+}
+
+nav .nav-items > a {
+  text-decoration: none;
+  padding: 0 16px;
+  margin: 0 10px;
+  color: #444444;
+  transition: all 0.4s ease-in-out;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+nav .nav-items > a:hover {
+  background-color: #c7c7c7;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+nav .nav-items > a.active {
+  background-color: #444444;
+  color: white;
+  font-weight: 900;
+  padding: 8px 12px;
+  border-radius: 6px;
 }
 
 #hero {
@@ -199,8 +234,10 @@
 }
 
 .navbar-brand {
-  color: red;
+  color: #e05347;
   font-family: "Oleo Script";
+  font-size: 30px;
+  text-decoration: none;
 }
 
 h1 {
@@ -214,6 +251,13 @@ h2 {
 h3 {
   color: #444444;
   font-weight: bold;
+}
+
+#about button {
+  width: auto;
+  padding: 8px 16px;
+  align-items: center;
+  font-size: 0.9rem;
 }
 
 .btn {

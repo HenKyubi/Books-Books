@@ -3,108 +3,91 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="background">
-        <header className="container">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-              <a className="navbar-brand" href="#">
-                myLorem
-              </a>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Welcome
-                  </a>
-                  <a className="nav-link" href="#">
-                    Dropdown
-                  </a>
-                  <a className="nav-link" href="#">
-                    Left Sidebar
-                  </a>
-                  <a className="nav-link" href="#">
-                    Right Sidebar
-                  </a>
-                  <a className="nav-link" href="#">
-                    No Sidebar
-                  </a>
-                </div>
+      <header className="container">
+        <nav className="row justify-space-between">
+          <a className="navbar-brand" href="#">
+            myLorem
+          </a>
+          <div className="nav-items">
+            <a className="nav-link active" aria-current="page" href="#">
+              Welcome
+            </a>
+            <a className="nav-link" href="#">
+              Dropdown
+            </a>
+            <a className="nav-link" href="#">
+              Left Sidebar
+            </a>
+            <a className="nav-link" href="#">
+              Right Sidebar
+            </a>
+            <a className="nav-link" href="#">
+              No Sidebar
+            </a>
+          </div>
+        </nav>
+      </header>
+      <section className="container" id="hero">
+        <div className="card-white row justify-space-between">
+          <div className="col-left">
+            <h1>Hi, This is Lorem.</h1>
+            <p>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto
+            </p>
+          </div>
+          <div className="col-rigth">
+            <button className="btn">
+              <div className="pr-4">Ok let's go</div>
+              <div>
+                <i class="fas fa-arrow-circle-right"></i>
               </div>
+            </button>
+            <button className="btn-ligth">
+              <div className="pr-4">More info</div>
+              <div>
+                <i class="fas fa-question-circle"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div className="container" id="features">
+        <div className="row">
+          <div className="card-white ml-0">
+            <div className="stuff-item stuff1">
+              <div>Put something here</div>
             </div>
-          </nav>
-        </header>
-        <section className="container" id="hero">
-          <div className="card-white row justify-space-between">
-            <div className="col-left">
-              <h1>Hi, This is Lorem.</h1>
+            <div className="card-body">
+              <h3>Maybe here as well i think</h3>
               <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y archivos de texto
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
               </p>
             </div>
-            <div className="col-rigth">
-              <button className="btn">
-                <div className="pr-4">Ok let's go</div>
-                <div>
-                  <i class="fas fa-arrow-circle-right"></i>
-                </div>
-              </button>
-              <button className="btn-ligth">
-                <div className="pr-4">More info</div>
-                <div>
-                  <i class="fas fa-question-circle"></i>
-                </div>
-              </button>
+          </div>
+          <div className="card-white">
+            <div className="stuff-item stuff2">
+              <div>An interesting title</div>
+            </div>
+            <div className="card-body">
+              <h3>This is also an interesting subtitle</h3>
+              <p>
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+              </p>
             </div>
           </div>
-        </section>
-        <div className="container" id="features">
-          <div className="row">
-            <div className="card-white ml-0">
-              <div className="stuff-item stuff1">
-                <div>Put something here</div>
-              </div>
-              <div className="card-body">
-                <h3>Maybe here as well i think</h3>
-                <p>
-                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
-                  lectus. Praesent sed semper amet bibendum tristique fringilla.
-                </p>
-              </div>
+          <div className="card-white mr-0">
+            <div className="stuff-item stuff3">
+              <div>Oh, and finally...</div>
             </div>
-            <div className="card-white">
-              <div className="stuff-item stuff2">
-                <div>An interesting title</div>
-              </div>
-              <div className="card-body">
-                <h3>This is also an interesting subtitle</h3>
-                <p>
-                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
-                  lectus. Praesent sed semper amet bibendum tristique fringilla.
-                </p>
-              </div>
-            </div>
-            <div className="card-white mr-0">
-              <div className="stuff-item stuff3">
-                <div>Oh, and finally...</div>
-              </div>
-              <div className="card-body">
-                <h3>Here's another intriguing subtitle</h3>
-                <p>
-                  Phasellus quam turpis, feugiat sit amet in, hendrerit in
-                  lectus. Praesent sed semper amet bibendum tristique fringilla.
-                </p>
-              </div>
+            <div className="card-body">
+              <h3>Here's another intriguing subtitle</h3>
+              <p>
+                Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+              </p>
             </div>
           </div>
         </div>
@@ -127,7 +110,10 @@ function App() {
                 <div className="green"></div>
               </div>
             </div>
-            <button className="btn">More</button>
+            <button className="btn">
+              <i className="fas fa-arrow-circle-right"></i>
+              <div>More</div>
+            </button>
           </div>
           <div>
             <h2>So what's this all about?</h2>
@@ -154,7 +140,10 @@ function App() {
               placerat leo eget sodales volutpat. Sed vel sapien accumsan,
               pulvinar tortor ac, iaculis sapien.
             </p>
-            <button className="btn">Continue Reading</button>
+            <button className="btn">
+              <i className="fas fa-arrow-circle-right"></i>
+              <div>Continue Reading</div>
+            </button>
           </div>
         </div>
       </div>
