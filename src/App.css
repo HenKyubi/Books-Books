@@ -367,9 +367,33 @@ footer .far {
   display: flex;
   color: gray;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 576px) {
-  .card-white {
+  #about {
+    display: block;
+  }
+
+  .row {
+    display: block;
+  }
+
+  #features .card-white {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px !important;
+  }
+
+  .col-rigth {
+    margin-left: 0;
+  }
+
+  .ml-0 {
+    margin: 0 !important;
+  }
+
+  .about-left {
+    padding: 0;
   }
 }

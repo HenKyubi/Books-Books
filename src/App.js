@@ -111,7 +111,7 @@ function App() {
               </div>
             </div>
             <button className="btn">
-              <i className="fas fa-arrow-circle-right"></i>
+              <i class="far fa-file-alt"></i>
               <div>More</div>
             </button>
           </div>
@@ -150,123 +150,97 @@ function App() {
       <footer className="container">
         <div className="background" id="footer">
           <div>
-            <h5>Random Stuff</h5>
-            <a href="">Etiam feugiat condimentum</a>
-            <a href="">Aliquam imperdiet suscipit odio</a>
-            <a href="">Sed porttitor crasin erat nec</a>
-            <a href="">Felis varius pellentesque potenti</a>
-            <a href="">Nullam scelerisque blandit leo</a>
+            <h4>Random Stuff</h4>
+            <ul>
+              <li>
+                <a href="">Etiam feugiat condimentum</a>
+              </li>
+              <li>
+                <a href="">Aliquam imperdiet suscipit odio</a>
+              </li>
+              <li>
+                <a href="">Sed porttitor crasin erat nec</a>
+              </li>
+              <li>
+                <a href="">Felis varius pellentesque potenti</a>
+              </li>
+              <li>
+                <a href="">Nullam scelerisque blandit leo</a>
+              </li>
+            </ul>
           </div>
           <div>
-            <h5>Random Stuff</h5>
-            <a href="">Etiam feugiat condimentum</a>
-            <a href="">Aliquam imperdiet suscipit odio</a>
-            <a href="">Sed porttitor crasin erat nec</a>
-            <a href="">Felis varius pellentesque potenti</a>
-            <a href="">Nullam scelerisque blandit leo</a>
+            <h4>Random Stuff</h4>
+            <ul>
+              <li>
+                <a href="">Etiam feugiat condimentum</a>
+              </li>
+              <li>
+                <a href="">Aliquam imperdiet suscipit odio</a>
+              </li>
+              <li>
+                <a href="">Sed porttitor crasin erat nec</a>
+              </li>
+              <li>
+                <a href="">Felis varius pellentesque potenti</a>
+              </li>
+              <li>
+                <a href="">Nullam scelerisque blandit leo</a>
+              </li>
+            </ul>
           </div>
           <div>
-            <h5>Random Stuff</h5>
-            <a href="">Etiam feugiat condimentum</a>
-            <a href="">Aliquam imperdiet suscipit odio</a>
-            <a href="">Sed porttitor crasin erat nec</a>
-            <a href="">Felis varius pellentesque potenti</a>
-            <a href="">Nullam scelerisque blandit leo</a>
+            <h4>Random Stuff</h4>
+            <ul>
+              <li>
+                <a href="">Etiam feugiat condimentum</a>
+              </li>
+              <li>
+                <a href="">Aliquam imperdiet suscipit odio</a>
+              </li>
+              <li>
+                <a href="">Sed porttitor crasin erat nec</a>
+              </li>
+              <li>
+                <a href="">Felis varius pellentesque potenti</a>
+              </li>
+              <li>
+                <a href="">Nullam scelerisque blandit leo</a>
+              </li>
+            </ul>
           </div>
           <div>
-            <h5>Contact Us</h5>
+            <div>
+              <h4>Contact Us</h4>
+            </div>
+            <div>
+              <a href="">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-dribbble-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-pinterest-square"></i>
+              </a>
+            </div>
+            <div>
+              <p>1234 Fictional Road</p>
+              <p>Nashville, TN 00000</p>
+              <p>(800) 555-0000</p>
+            </div>
           </div>
         </div>
-        <span>Untitle. All rights reserved</span>
+        <div className="copyright">
+          <span>Untitle. All rights reserved</span>
+        </div>
       </footer>
-      {/* <section className="">
-        <div className="container text-center text-md-start mt-5">
-          <div className="row mt-3">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  React
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Laravel
-                </a>
-              </p>
-            </div>
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Help
-                </a>
-              </p>
-            </div>
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <i className="fas fa-home me-3"></i> New York, NY 10012, US
-              </p>
-              <p>
-                <i className="fas fa-envelope me-3"></i>
-                info@example.com
-              </p>
-              <p>
-                <i className="fas fa-phone me-3"></i> + 01 234 567 88
-              </p>
-              <p>
-                <i className="fas fa-print me-3"></i> + 01 234 567 89
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div
-        className="text-center p-4"
-        // style="background-color: rgba(0, 0, 0, 0.05);"
-      >
-        © 2021 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
-        </a>
-      </div> */}
     </div>
   );
 }
