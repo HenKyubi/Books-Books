@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <div className="background">
-        <header>
+        <header className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
@@ -43,24 +43,38 @@ function App() {
             </div>
           </nav>
         </header>
-        <section id="hero">
-          <div>
-            <h2>Hi, This is Lorem.</h2>
-            <p>
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-              archivos de texto
-            </p>
-          </div>
-          <div>
-            <button className="btn">Ok let's go</button>
-            <button className="btn">More Info</button>
+        <section className="container" id="hero">
+          <div className="card-white row justify-space-between">
+            <div className="col-left">
+              <h1>Hi, This is Lorem.</h1>
+              <p>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas
+                y archivos de texto
+              </p>
+            </div>
+            <div className="col-rigth">
+              <button className="btn">
+                <div className="pr-4">Ok let's go</div>
+                <div>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </div>
+              </button>
+              <button className="btn-ligth">
+                <div className="pr-4">More info</div>
+                <div>
+                  <i class="fas fa-question-circle"></i>
+                </div>
+              </button>
+            </div>
           </div>
         </section>
-        <div id="features">
+        <div className="container" id="features">
           <div className="background-white">
-            <div className="stuff-item stuff1">Put something here</div>
+            <div className="stuff-item stuff1">
+              <div>Put something here</div>
+            </div>
             <div>
-              <h5>Maybe here as well i think</h5>
+              <h3>Maybe here as well i think</h3>
               <p>
                 Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
                 Praesent sed semper amet bibendum tristique fringilla.
@@ -68,9 +82,11 @@ function App() {
             </div>
           </div>
           <div className="background-white">
-            <div className="stuff-item stuff2">An interesting title</div>
+            <div className="stuff-item stuff2">
+              <div>An interesting title</div>
+            </div>
             <div>
-              <h5>This is also an interesting subtitle</h5>
+              <h3>This is also an interesting subtitle</h3>
               <p>
                 Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
                 Praesent sed semper amet bibendum tristique fringilla.
@@ -78,9 +94,11 @@ function App() {
             </div>
           </div>
           <div className="background-white">
-            <div className="stuff-item stuff3">Oh, and finally...</div>
+            <div className="stuff-item stuff3">
+              <div>Oh, and finally...</div>
+            </div>
             <div>
-              <h5>Here's another intriguing subtitle</h5>
+              <h3>Here's another intriguing subtitle</h3>
               <p>
                 Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
                 Praesent sed semper amet bibendum tristique fringilla.
@@ -89,46 +107,56 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="about">
-        <div>
-          <h4>Interesting stuff</h4>
-          <div id="stuff">
-            <div className="brown"></div>
-            <div className="pink"></div>
-            <div className="blue"></div>
-            <div className="green"></div>
+      <div className="container">
+        <div id="about">
+          <div className="about-left">
+            <h3>Interesting stuff</h3>
+            <div id="stuff">
+              <div className="stuff-box">
+                <div className="brown"></div>
+              </div>
+              <div className="stuff-box">
+                <div className="pink"></div>
+              </div>
+              <div className="stuff-box">
+                <div className="blue"></div>
+              </div>
+              <div className="stuff-box">
+                <div className="green"></div>
+              </div>
+            </div>
+            <button className="btn">More</button>
           </div>
-          <button>More</button>
-        </div>
-        <div>
-          <h3>So what's this all about?</h3>
-          <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta) desconocido usó una galería de
-            textos y los mezcló de tal manera que logró hacer un libro de textos
-            especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-            como texto de relleno en documentos electrónicos, quedando
-            esencialmente igual al original. Fue popularizado en los 60s con la
-            creación de las hojas "Letraset", las cuales contenian pasajes de
-            Lorem Ipsum, y más recientemente con software de autoedición, como
-            por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem
-            Ipsum.
-          </p>
-          <p>
-            Suspendisse et massa nec risus ultrices congue. Vivamus quis cursus
-            mauris. Fusce enim dolor, varius in interdum et, eleifend sed metus.
-            Sed iaculis, ligula at tempus lobortis, turpis massa bibendum massa,
-            a scelerisque nisi diam ut quam. Nam aliquet sem et consequat
-            dapibus. Nam bibendum rhoncus ultricies. Proin placerat leo eget
-            sodales volutpat. Sed vel sapien accumsan, pulvinar tortor ac,
-            iaculis sapien.
-          </p>
-          <button>Continue Reading</button>
+          <div>
+            <h2>So what's this all about?</h2>
+            <p className="text-grey">
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto. Lorem Ipsum ha sido el texto de relleno
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó
+              una galería de textos y los mezcló de tal manera que logró hacer
+              un libro de textos especimen. No sólo sobrevivió 500 años, sino
+              que tambien ingresó como texto de relleno en documentos
+              electrónicos, quedando esencialmente igual al original. Fue
+              popularizado en los 60s con la creación de las hojas "Letraset",
+              las cuales contenian pasajes de Lorem Ipsum, y más recientemente
+              con software de autoedición, como por ejemplo Aldus PageMaker, el
+              cual incluye versiones de Lorem Ipsum.
+            </p>
+            <p className="text-grey">
+              Suspendisse et massa nec risus ultrices congue. Vivamus quis
+              cursus mauris. Fusce enim dolor, varius in interdum et, eleifend
+              sed metus. Sed iaculis, ligula at tempus lobortis, turpis massa
+              bibendum massa, a scelerisque nisi diam ut quam. Nam aliquet sem
+              et consequat dapibus. Nam bibendum rhoncus ultricies. Proin
+              placerat leo eget sodales volutpat. Sed vel sapien accumsan,
+              pulvinar tortor ac, iaculis sapien.
+            </p>
+            <button className="btn">Continue Reading</button>
+          </div>
         </div>
       </div>
-      <footer>
+      <footer className="container">
         <div className="background" id="footer">
           <div>
             <h5>Random Stuff</h5>
